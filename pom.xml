@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://18.207.2.73:5000/</sonar.host.url>
+		<sonar.host.url>http://sonarqube:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin123</sonar.password>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -97,13 +97,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>ACADA Learning Releases Nexus Repository</name>
-	      <url>http://nexus:8081/repository/cfcu-release/</url>
+	      <url>http://http://nexus:8081/repository/uba-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>ACADA Learning Snapshot Nexus Repository </name>
-	      <url>http://nexus:8081/repository/cfcu-snapshot/</url>
+	      <url>http://http://nexus:8081/repository/uba-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
