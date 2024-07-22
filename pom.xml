@@ -95,13 +95,13 @@
 	
 	<distributionManagement>
 	    <repository>
-	      <id>nexus</id>
+	      <id>nexus-try</id>
 	      <name>ACADA Learning Releases Nexus Repository</name>
 	      <url>http://http://nexus-try:8083/repository/cfcu-app-release/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
-	      <id>nexus</id>
+	      <id>nexus-try</id>
 	      <name>ACADA Learning Snapshot Nexus Repository </name>
 	      <url>http://http://nexus-try:8083/repository/cfcu-app-snapshot/</url>
 	    </snapshotRepository>
