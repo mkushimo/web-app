@@ -1,4 +1,4 @@
- <!-- <settings xmlns="http://maven.apache.org/SETTINGS/1.1.0">
+-- <settings xmlns="http://maven.apache.org/SETTINGS/1.1.0">
     <servers>
         <server>
             <id>nexus</id>
@@ -6,4 +6,4 @@
             <password>admin123</password>
         </server>
     </settings>
--->
+
