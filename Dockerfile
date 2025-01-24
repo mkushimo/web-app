@@ -1,2 +1,5 @@
-FROM tomcat:8.0.20-jre8
-COPY target/*.war /usr/local/tomcat/webapps/rbc-webapp.war
+FROM tomcat:latest
+WORKDIR /usr/local/tomcat/webapps/
+COPY target/*.war rbc-webapp.war
+EXPOSE 8080
+CMD ["catalina.sh", "run"]
